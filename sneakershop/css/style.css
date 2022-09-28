@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+}
+header{
+    color: #fff;
+    background-color: #3db36d;
+    text-align: center;
+    padding: 1%;
+    border-bottom:#0f6421 3px solid;
+    margin-bottom: 4%;
+}
+body{
+    background-color: #eee;
+}
+.card > h1{
+    color: #3db36d;
+    width: 30%;
+    border-left: #0f6421 5px solid;
+    padding: 3px;
+    
+}
+img{ 
+    height: 400px;
+    width: 450px;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+button{
+    height: 60px;
+    width: 450px;
+    text-transform: uppercase;
+    color: #eee;
+    background-color: #3db36d;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #0f6421;
+}
+footer{ 
+    color: #fff;
+    background-color: #3db36d;
+    text-align: center;
+    padding: 3%;
+    border-top:#0f6421 3px solid;
+   
+}
